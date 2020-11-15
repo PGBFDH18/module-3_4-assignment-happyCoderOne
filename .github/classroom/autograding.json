@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Hello1",
+      "setup": "",
+      "run": "mcs -out:main.exe main.cs; mono main.exe",
+      "input": "",
+      "output": "Hello World!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
